@@ -1,0 +1,103 @@
+* {
+  font-family: BrandonText,Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #000;
+  letter-spacing: 0.75px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  height: 50px;
+  padding-top: 10px;
+  width: 100%;
+  background-image: white;
+}
+
+.logo {
+  display: inline;
+  float: left;
+  height: 80%;
+  length: 100%;
+  padding-top: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.headerText p {
+  display: inline;
+  text-align: center;
+  font-size: 14px;
+  padding-top:3px;
+  color: lightgrey;
+}
+
+.left {
+  float: left;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+
+.right {
+  float: right;
+  padding-top: 10px;
+  padding-right:25px;
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    background-image: url("backgroundImage.jpeg") no-repeat
+}
+
+.content img {
+    padding-top: 10px;
+    filter: blur(1.25px);
+    filter: brightness(50%);
+    width: 100%;
+}
+
+.buttonContainer {
+  text-align: center;
+  position: absolute;
+  width: 80%;
+  left: 12%;
+  top: 30px;
+}
+
+.buttonContainer a {
+  text-decoration: none;
+  margin: 10px;
+  padding: 15px;
+  font-size: 15px;
+  color: #FFF;
+  background-color: #db3843;
+}
+
+.buttonContainer p {
+    font-size: 2vw;
+    color: white;
+    left: 10%;
+    padding-bottom: 25px;
+}
+
+.buttonContainer a:hover {
+  cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.footerLogo {
+    width: 7%;
+    height: 100%;
+}
